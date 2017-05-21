@@ -1,0 +1,76 @@
+header{
+    width:100%;
+    background-color: #fff;
+    height: 54px;
+}
+
+.main-header{
+    padding:30%;
+    width:100%;
+    background-size: cover;
+    background-image: url("spring-bird.png");
+    background-attachment: fixed;
+}
+
+.main-header h1{
+    display: none;
+}
+
+header ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+header ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+header li {
+  float: left;
+  width: auto;
+}
+
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.what{
+    background-color: #fff;
+    color:#333;
+    padding:80px;
+}
+
+footer{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0 10px 0;
+    color: #333;
+    margin: auto;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    text-align: center;
+    font-family: 'Souece Sans Pro',sans-serif;
+}
+
+input[type="submit"].btn-block{
+    margin: 15px 0;
+}
+
+.container{
+    padding-bottom: 85px;
+}
